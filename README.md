@@ -26,10 +26,6 @@ Misc Libraries (  Maven  /  Docker  /  SpringDoc OpenAPI  /  Spring Email  /  Lo
 
 ### ⚒️ Getting Started
 
-```bash
-# clone the project
-git clone https://github.com/rodrigobalazs/springboot-microservices.git;
-
 # start a mysql docker container associated to the Stock Microservice
 docker run --name stock_db -e MYSQL_DATABASE=stock_db -e MYSQL_USER=<db_user> \
     -e MYSQL_PASSWORD=<db_password> -e MYSQL_ROOT_PASSWORD=<db_password> \
